@@ -74,7 +74,7 @@ lista1.insert(1, 5)
 #para agregar varios elementos al final de la lista
 lista1.extend([7, 8, 9])
 
-#pare eliminar la primera aparición de la lista
+#para eliminar la primera aparición de la lista
 lista1.remove(5) #elimina la primera aparición del 5 en la lista
 
 #para eliminar un elemento de un índice (por defecto elimina el ultimo elemento de la lista, te hace un return del elemento)
@@ -93,15 +93,3 @@ print(lista1)
 lista1 = [1, 2, 3, 4, 5, 6, 7, 8]
 del lista1[1:3]
 print(lista1)
-
-### Más Metodos utiles ###
-
-#ordenar una lista
-numeros = [1, 43, 23, 45, 12, 76, 21, 53]
-
-# sort, organiza la lista de menor a mayor pero no hace ningun return 
-numeros.sort() # esto modifica esta misma lista
-
-# para guardar o hacer una copia de la lista (sorted)
-organizado = sorted(numeros)
-print(organizado) #parece igual pero ahora tenemos la lista ordenada y desordenada tambien
